@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="h-screen w-screen flex justify-center items-center">
+    <div className="h-screen w-screen flex justify-center bg-[url('/flowers.png')] bg-no-repeat bg-contain pt-32 sm:pt-48 bg-left-bottom">
       <div className="flex flex-col gap-2 text-center text-balance">
         <h1 className="font-serif text-4xl">
           <span className="text-primary">Ilaria</span> and{" "}
