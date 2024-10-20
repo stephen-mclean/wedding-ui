@@ -14,20 +14,33 @@ export default function Home() {
         ...and also to celebrate their wedding :)
       </h2>
       <h2 className="font-serif text-2xl font-semibold">20th September 2025</h2>
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col mx-auto gap-2">
         <Link href={"/travel"}>
-          <div className="flex gap-1 text-base font-sans text-primary">
+          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
             How to get there
           </div>
         </Link>
+        <Link href={"/wedding"}>
+          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
+            The big day
+          </div>
+        </Link>
         <Link href={"/accomodation"}>
-          <div className="flex gap-1 text-base font-sans text-primary">
+          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
             Where to stay
           </div>
         </Link>
         <Link href={"/sights"}>
-          <div className="flex gap-1 text-base font-sans text-primary">
+          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
             What to see
+          </div>
+        </Link>
+      </div>
+
+      <div className="flex mx-auto">
+        <Link href={"/rsvp"}>
+          <div className="flex justify-center items-center text-base font-sans bg-accent text-accent-dark rounded h-8 px-3 flex-1">
+            RSVP
           </div>
         </Link>
       </div>
