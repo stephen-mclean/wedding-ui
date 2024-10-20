@@ -21,6 +21,13 @@ const config: Config = {
       primary: {
         DEFAULT: "#897A59",
       },
+      accent: {
+        DEFAULT: "#AAC6C9",
+        dark: "#2D3E40",
+      },
+      pink: {
+        DEFAULT: "#AF3B6E",
+      },
       black: {
         DEFAULT: "#252323",
       },
