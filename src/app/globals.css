@@ -7,3 +7,9 @@
     text-wrap: balance;
   }
 }
+
+@layer base {
+  html {
+    @apply text-black;
+  }
+}

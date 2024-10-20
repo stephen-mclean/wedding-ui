@@ -2,7 +2,10 @@ export default function Home() {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       <div className="flex flex-col gap-2 text-center text-balance">
-        <h1 className="font-serif text-4xl">Ilaria and Stephen</h1>
+        <h1 className="font-serif text-4xl">
+          <span className="text-primary">Ilaria</span> and{" "}
+          <span className="text-primary">Stephen</span>
+        </h1>
         <h2 className="font-serif text-2xl">
           invite you for a day of dancing, drinking, eating, love, and fun
         </h2>

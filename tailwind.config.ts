@@ -17,6 +17,17 @@ const config: Config = {
         serif: ["var(--font-cormorant-garamond)"],
       },
     },
+    colors: {
+      primary: {
+        DEFAULT: "#897A59",
+      },
+      black: {
+        DEFAULT: "#252323",
+      },
+      surface: {
+        DEFAULT: "#F8F6F3",
+      },
+    },
   },
   plugins: [],
 };

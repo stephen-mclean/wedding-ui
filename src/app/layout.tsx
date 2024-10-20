@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorantGaramond.variable} ${overpass.variable} antialiased`}
+        className={`${cormorantGaramond.variable} ${overpass.variable} antialiased bg-surface`}
       >
         {children}
       </body>
