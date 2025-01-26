@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 
-type Guest = {
+export type Guest = {
   id?: number;
   name: string;
   isAttending?: boolean;

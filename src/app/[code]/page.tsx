@@ -1,6 +1,7 @@
 import { fetchInvite } from "@/api";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { InviteForm } from "./invite-form";
 
 export default async function UpdateInvite({
   params,
@@ -27,8 +28,9 @@ export default async function UpdateInvite({
   }
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 flex-1">
       <h1 className="font-serif text-4xl text-center">RSVP</h1>
+      <InviteForm invite={invite} />
     </div>
   );
 }
