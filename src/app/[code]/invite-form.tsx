@@ -14,6 +14,7 @@ import { useRouter } from "next/navigation";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TextArea } from "@/components/ui/textarea";
+import Link from "next/link";
 
 const guestSchema = z.object({
   isAttending: z.boolean(),
@@ -128,9 +129,11 @@ export const InviteForm = ({ invite }: Props) => {
         />
 
         <div className="flex justify-end gap-2">
-          <Button variant="secondary" type="button">
-            Back
-          </Button>
+          <Link href="/">
+            <Button variant="secondary" type="button">
+              Back
+            </Button>
+          </Link>
           <Button type="submit" disabled={isDisabled}>
             Submit
           </Button>
