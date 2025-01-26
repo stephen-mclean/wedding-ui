@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -15,33 +16,23 @@ export default function Home() {
       </h2>
       <h2 className="font-serif text-2xl font-semibold">20th September 2025</h2>
       <div className="flex flex-col mx-auto gap-2">
-        <Link href={"/travel"}>
-          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
-            How to get there
-          </div>
+        <Link href={"/travel"} className="flex">
+          <Button variant="secondary">How to get there</Button>
         </Link>
-        <Link href={"/wedding"}>
-          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
-            The big day
-          </div>
+        <Link href={"/wedding"} className="flex">
+          <Button variant="secondary">The big day</Button>
         </Link>
-        <Link href={"/accomodation"}>
-          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
-            Where to stay
-          </div>
+        <Link href={"/accomodation"} className="flex">
+          <Button variant="secondary">Where to stay</Button>
         </Link>
-        <Link href={"/sights"}>
-          <div className="flex justify-center items-center text-base font-sans bg-surface border-primary border text-primary rounded h-8 px-3 flex-1">
-            What to see
-          </div>
+        <Link href={"/sights"} className="flex">
+          <Button variant="secondary">What to see</Button>
         </Link>
       </div>
 
       <div className="flex mx-auto">
         <Link href={"/rsvp"}>
-          <div className="flex justify-center items-center text-base font-sans bg-accent text-accent-dark rounded h-8 px-3 flex-1">
-            RSVP
-          </div>
+          <Button>RSVP</Button>
         </Link>
       </div>
     </div>
