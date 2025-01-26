@@ -1,6 +1,7 @@
 import { fetchInvite } from "@/api";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { ThankYouCelebration } from "./confetti";
 
 export default async function InviteCompleted({
   params,
@@ -34,8 +35,32 @@ export default async function InviteCompleted({
 
   return (
     <div className="flex flex-col gap-6 flex-1 lg:max-w-lg">
+      {!allGuestsSaidNo ? <ThankYouCelebration /> : null}
       <h1 className="font-serif text-4xl text-center">Thank you!</h1>
       <p className="font-serif text-base">{thankYouMessage}</p>
+
+      <div className="flex flex-col mx-auto gap-2">
+        <Link href={"/travel"} className="flex">
+          <Button variant="secondary" size="full">
+            How to get there
+          </Button>
+        </Link>
+        <Link href={"/wedding"} className="flex">
+          <Button variant="secondary" size="full">
+            The big day
+          </Button>
+        </Link>
+        <Link href={"/accomodation"} className="flex">
+          <Button variant="secondary" size="full">
+            Where to stay
+          </Button>
+        </Link>
+        <Link href={"/sights"} className="flex">
+          <Button variant="secondary" size="full">
+            What to see
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }
