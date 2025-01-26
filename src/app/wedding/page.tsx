@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Wedding() {
   return (
     <div className="flex flex-col gap-4 flex-1 lg:max-w-lg">
-      <h1 className="font-serif text-4xl">The big day</h1>
+      <h1 className="font-serif text-4xl text-center">The big day</h1>
 
       <div className="flex flex-col gap-2">
         <h2 className="font-serif text-2xl">Arriving at the venue</h2>

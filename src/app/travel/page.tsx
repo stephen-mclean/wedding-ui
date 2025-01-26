@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Travel() {
   return (
     <div className="flex flex-col gap-4 flex-1 lg:max-w-lg">
-      <h1 className="font-serif text-4xl">How to get there</h1>
+      <h1 className="font-serif text-4xl text-center">How to get there</h1>
 
       <div className="flex flex-col gap-2">
         <h2 className="font-serif text-2xl">Getting to Ostuni</h2>
