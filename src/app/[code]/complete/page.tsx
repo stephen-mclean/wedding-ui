@@ -1,9 +1,8 @@
 import { fetchInvite } from "@/api";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { InviteForm } from "./invite-form";
 
-export default async function UpdateInvite({
+export default async function InviteCompleted({
   params,
 }: {
   params: Promise<{ code: string }>;
@@ -27,10 +26,16 @@ export default async function UpdateInvite({
     );
   }
 
+  const allGuestsSaidNo = invite.guests.every((guest) => !guest.isAttending);
+
+  const thankYouMessage = allGuestsSaidNo
+    ? "Thank you very much for responding. We're sorry we won't see you this time, but we hope to see you soon!"
+    : "Thank you very much for responding. We can't wait to share our day with you. Please find some useful information below and don't hesitate to reach out to us if you need anything.";
+
   return (
     <div className="flex flex-col gap-6 flex-1 lg:max-w-lg">
-      <h1 className="font-serif text-4xl text-center">RSVP</h1>
-      <InviteForm invite={invite} />
+      <h1 className="font-serif text-4xl text-center">Thank you!</h1>
+      <p className="font-serif text-base">{thankYouMessage}</p>
     </div>
   );
 }

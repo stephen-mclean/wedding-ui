@@ -103,7 +103,7 @@ export const InviteForm = ({ invite }: Props) => {
     e?.preventDefault();
     e?.stopPropagation();
     await updateInvite({ ...data, notes: data.notes || "" });
-    router.push("/");
+    router.push(`/${invite.code}/complete`);
   };
 
   const isDisabled =
