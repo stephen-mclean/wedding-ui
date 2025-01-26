@@ -17,22 +17,30 @@ export default function Home() {
       <h2 className="font-serif text-2xl font-semibold">20th September 2025</h2>
       <div className="flex flex-col mx-auto gap-2">
         <Link href={"/travel"} className="flex">
-          <Button variant="secondary">How to get there</Button>
+          <Button variant="secondary" size="full">
+            How to get there
+          </Button>
         </Link>
         <Link href={"/wedding"} className="flex">
-          <Button variant="secondary">The big day</Button>
+          <Button variant="secondary" size="full">
+            The big day
+          </Button>
         </Link>
         <Link href={"/accomodation"} className="flex">
-          <Button variant="secondary">Where to stay</Button>
+          <Button variant="secondary" size="full">
+            Where to stay
+          </Button>
         </Link>
         <Link href={"/sights"} className="flex">
-          <Button variant="secondary">What to see</Button>
+          <Button variant="secondary" size="full">
+            What to see
+          </Button>
         </Link>
       </div>
 
       <div className="flex mx-auto">
-        <Link href={"/rsvp"}>
-          <Button>RSVP</Button>
+        <Link href={"/rsvp"} className="flex-1">
+          <Button size="full">RSVP</Button>
         </Link>
       </div>
     </div>
