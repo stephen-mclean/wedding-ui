@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${cormorantGaramond.variable} ${overpass.variable} antialiased bg-surface`}
       >
-        <div className="h-dvh w-dvh flex justify-center bg-[url('/flowers.png')] bg-no-repeat bg-[length:250px] sm:bg-contain pt-8 sm:pt-48 bg-left-bottom">
+        <div className="h-dvh w-dvh flex justify-center bg-[url('/flowers.png')] bg-no-repeat bg-[length:250px] sm:bg-contain pt-8 px-8 sm:pt-48 bg-left-bottom">
           {children}
         </div>
       </body>
