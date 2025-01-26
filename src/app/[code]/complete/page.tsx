@@ -2,6 +2,7 @@ import { fetchInvite } from "@/api";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ThankYouCelebration } from "./confetti";
+import Image from "next/image";
 
 export default async function InviteCompleted({
   params,
@@ -34,10 +35,20 @@ export default async function InviteCompleted({
     : "Thank you very much for responding. We can't wait to share our day with you. Please find some useful information below and don't hesitate to reach out to us if you need anything.";
 
   return (
-    <div className="flex flex-col gap-6 flex-1 lg:max-w-lg">
+    <div className="flex flex-col items-center gap-6 flex-1 lg:max-w-lg">
       {!allGuestsSaidNo ? <ThankYouCelebration /> : null}
       <h1 className="font-serif text-4xl text-center">Thank you!</h1>
-      <p className="font-serif text-base">{thankYouMessage}</p>
+
+      <Image
+        src="/thank-you.JPG"
+        alt="Thank you"
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="flex-1 rounded-md object-contain w-auto h-auto max-h-36 md:max-h-64"
+      />
+
+      <p className="font-serif text-lg text-center">{thankYouMessage}</p>
 
       <div className="flex flex-col mx-auto gap-2">
         <Link href={"/travel"} className="flex">
