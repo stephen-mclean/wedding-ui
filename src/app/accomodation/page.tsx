@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Accomodation() {
   return (
-    <div className="flex flex-col gap-4 flex-1 lg:max-w-lg">
+    <div className="flex flex-col gap-4 flex-1 lg:max-w-lg bg-surface sm:bg-opacity-0 pt-8 px-8 -mt-8 -mx-8 sm:mx-0 sm:mt-0 sm:pt-0 sm:px-0">
       <h1 className="font-serif text-4xl text-center">Where to stay</h1>
 
       <div className="flex flex-col gap-2">
