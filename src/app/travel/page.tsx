@@ -20,6 +20,13 @@ export default function Travel() {
           place, logistically, for everyone to stay nearby would be Ostuni.
         </p>
 
+        <div>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1fOTT7UC_x_QyQO-uXj0NFI1Qj3TwXFM&hl=en&ehbc=2E312F"
+            className="w-full h-[400px]"
+          ></iframe>
+        </div>
+
         <h2 className="font-serif text-2xl">Bus to the venue</h2>
 
         <p className="font-sans text-base">
