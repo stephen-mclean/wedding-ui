@@ -8,7 +8,7 @@ export function BackButton() {
   const router = useRouter();
 
   const onClick = () => {
-    router.back();
+    router.push("/");
   };
 
   return (
