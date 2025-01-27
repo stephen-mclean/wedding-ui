@@ -1,5 +1,6 @@
 import { BackButton } from "@/components/pages/back-button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Sights() {
   return (
@@ -13,6 +14,14 @@ export default function Sights() {
 
       <div className="flex flex-col gap-2">
         <h2 className="font-serif text-2xl">Ostuni</h2>
+        <Image
+          src="/ostuni.jpg"
+          alt="Ostuni"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           Ostuni is a beautiful city with a lot of history and culture. It is
           known for its whitewashed buildings and old town walls.
@@ -23,6 +32,14 @@ export default function Sights() {
         </p>
 
         <h3 className="font-serif text-xl">Monopoli</h3>
+        <Image
+          src="/monopoli.webp"
+          alt="Monopoli"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           <Link
             href="https://maps.app.goo.gl/CY5SfM6ZzcmdTMPMA"
@@ -38,6 +55,14 @@ export default function Sights() {
         </p>
 
         <h3 className="font-serif text-xl">Polignano a Mare</h3>
+        <Image
+          src="/polignano.jpg"
+          alt="Polignano"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           <Link
             href="https://maps.app.goo.gl/mkhJusct5PTkkjaJ6"
@@ -57,6 +82,14 @@ export default function Sights() {
         </p>
 
         <h3 className="font-serif text-xl">Alberobello</h3>
+        <Image
+          src="/alberobello.jpg"
+          alt="Alberobello"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           <Link
             href="https://maps.app.goo.gl/gWpDnrWQasdDm4V17"
@@ -72,6 +105,14 @@ export default function Sights() {
         </p>
 
         <h3 className="font-serif text-xl">Lecce</h3>
+        <Image
+          src="/lecce.jpg"
+          alt="Lecce"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           <Link
             href="https://maps.app.goo.gl/xvPbNiQJvmT1R1n68"

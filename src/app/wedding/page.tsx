@@ -1,5 +1,6 @@
 import { BackButton } from "@/components/pages/back-button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Wedding() {
   return (
@@ -13,6 +14,14 @@ export default function Wedding() {
 
       <div className="flex flex-col gap-2">
         <h2 className="font-serif text-2xl">Arriving at the venue</h2>
+        <Image
+          src="/masseria.jpg"
+          alt="Masseria"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="flex-1 rounded-md object-cover w-auto h-auto max-h-36 md:max-h-64"
+        />
         <p className="font-sans text-base">
           On the day, we will be arranging a bus to take everyone staying in
           Ostuni to the venue. The same bus will take everyone back to Ostuni
