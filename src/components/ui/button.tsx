@@ -9,6 +9,7 @@ const buttonVariants = cva(
       variant: {
         default: "bg-accent text-accent-dark",
         secondary: "bg-surface border-primary border text-primary",
+        ghost: "bg-transparent",
       },
       size: {
         default: "h-8 px-3",
