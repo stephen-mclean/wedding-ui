@@ -11,6 +11,7 @@ export default async function UpdateInvite({
   const { code } = await params;
 
   const invite = await fetchInvite(code);
+  console.log(invite);
 
   if (!invite) {
     return (

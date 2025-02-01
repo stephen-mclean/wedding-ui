@@ -57,6 +57,11 @@ export const fetchInvite = async (code: string): Promise<Invite | null> => {
     const response = await fetch(`${process.env.API_URL}/invite/${code}`, {
       cache: "no-store",
     });
+
+    if (!response.ok) {
+      return null;
+    }
+
     return response.json();
   } catch (error) {
     console.error(error);
