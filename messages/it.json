@@ -60,5 +60,22 @@
     "theBigDay": "Il grande giorno",
     "whereToStay": "Dove stare",
     "whatToSee": "Cose da vedere"
+  },
+  "sights": {
+    "title": "Cose da vedere",
+    "ostuni": "Ostuni",
+    "ostuniDescription": "Ostuni è una città bella con molta storia e cultura. È nota per i suoi edifici bianchi e le mura del centro storico.",
+    "ostuniDescription2": "Se avete la possibilità di rimanere con noi un po' più a lungo, ecco alcune delle cose che non potete perdere.",
+    "monopoli": "Monopoli",
+    "monopoliDescription": "è 43km a nord di Ostuni. È anche il paese preferito di Ilaria :) Qui potrete passeggiare attorno al centro storico mentre mangiate pesce (non ci sono gabbiani) o fare una nuotata nel mare piu bello che ci sia.",
+    "polignano": "Polignano a Mare",
+    "polignanoDescription": "è 50km a nord di Ostuni. Gli stranieri pensano che questo è il miglior paese in Puglia (sono giusti, ma perché non lo sanno bene).",
+    "polignanoDescription2": " Qui potrete mangiare un gelato o bere una birra seduti su un promontorio.",
+    "alberobello": "Alberobello",
+    "alberobelloDescription": "è 32km a sud di Ostuni e è un sito mondiale UNESCO. Qui potrete visitare i Trulli. I Trulli sono case tradizionali che sono state trasformate in ristoranti, negozi, hotel, ecc. Sono molto belli e Stephen li amava molto :)",
+    "lecce": "Lecce",
+    "lecceDescription": "è 82km a sud di Ostuni. Lecce è nota per i suoi edifici Barocco, molte chiese, pasticciotto e caffè con zucchero di mandorla (caffe leccese). Che delizia! Ma tutto è una delizia, davvero!",
+    "moreRecommendations": "Altre raccomandazioni",
+    "moreRecommendationsDescription": "Chiedici se vorresti qualche aiuto nel pianificare il tuo itinerario."
   }
 }

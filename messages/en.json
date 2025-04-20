@@ -60,5 +60,22 @@
     "theBigDay": "The big day",
     "whereToStay": "Where to stay",
     "whatToSee": "What to see"
+  },
+  "sights": {
+    "title": "What to see",
+    "ostuni": "Ostuni",
+    "ostuniDescription": "Ostuni is a beautiful city with a lot of history and culture. It is known for its whitewashed buildings and old town walls.",
+    "ostuniDescription2": "If you have the opportunity to stay with us a bit longer, here are some of the places you can&apos;t miss.",
+    "monopoli": "Monopoli",
+    "monopoliDescription": "is 43km north of Ostuni. It is also Ilaria&apos;s favorite town in the area :) Here, you will have the option to stroll around the historical center and to go for a swim while you eat fried fish in a cone (there are no seagulls).",
+    "polignano": "Polignano a Mare",
+    "polignanoDescription": "is 50km north of Ostuni. Foreigners think this is the absolute best town in Puglia (they are right, but just because they don&apos;t know the area well",
+    "polignanoDescription2": "Here, you will be able to have an ice cream or sip a beer sitting on a cliff.",
+    "alberobello": "Alberobello",
+    "alberobelloDescription": "is 32km inland from Ostuni and is a world UNESCO heritage site. Here, you can visit Trulli. Trulli are traditional houses which have been turned into restaurants, shops, hotels, etc. They are very beautiful and Stephen loved them :)",
+    "lecce": "Lecce",
+    "lecceDescription": "is 82km south of Ostuni. Lecce is known for Barocco style buildings, plenty of churches, pasticciotto pastry, and iced coffee with almond syrup (caffe leccese). What a treat! But everything is a treat, really!",
+    "moreRecommendations": "More recommendations",
+    "moreRecommendationsDescription": "Ask us if you would like any help planning your itinerary."
   }
 }
