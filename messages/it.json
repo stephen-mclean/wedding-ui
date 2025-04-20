@@ -20,5 +20,14 @@
     "airportsDescription": "Gli aeroporti più vicini sono Brindisi (44km) e Bari (100km).",
     "airportsDescriptionDublin": "Per entrambi gli aeroporti, sono disponibili voli diretti da Dublino il mercoledì e il sabato.",
     "airportsDescriptionBrindisi": "Per arrivare a Ostuni da uno di questi aeroporti sono disponibili autobus, taxis o è possibile noleggiare un'auto. Si prega di consultare il sito web dell'aeroporto per tutte le opzioni."
+  },
+  "wedding": {
+    "title": "Il grande giorno",
+    "arrivingAtTheVenue": "Arrivare alla masseria",
+    "bus": "Il giorno del matrimonio, sarà organizzata una navetta per portare tutti gli ospiti che soggiornano in Ostuni, al luogo del matrimonio. La stessa navetta riporterà tutti gli ospiti a Ostuni dopo il matrimonio.",
+    "busDetails": "Confermeremo i dettagli della navetta una volta che l'esatto numero di ospiti sarà definito. Aggiorneremo questa pagina con i dettagli appena possibile.",
+    "alternative": "In alternativa, potrete arrivare in auto e vi sarà fornito parcheggio. Sono anche disponibili alcuni taxi locali ma la disponibilità è limitata.",
+    "ceremony": "La cerimonia",
+    "ceremonyDescription": "La cerimonia si terrà alle 16:00 presso la Masseria Castelluzzo. Dopo la cerimonia ci sarà aperitivo, cena, musica, bevande, torta e balli :)"
   }
 }

@@ -20,5 +20,14 @@
     "airportsDescription": "The closest airports are Brindisi (44km) and Bari (100km).",
     "airportsDescriptionDublin": "For both airports, direct flights from Dublin are available on a Wednesday and a Saturday.",
     "airportsDescriptionBrindisi": "To get from either airport to Ostuni you can take a bus, taxi, or rent a car. Please see the airport website for all options."
+  },
+  "wedding": {
+    "title": "The big day",
+    "arrivingAtTheVenue": "Arriving at the venue",
+    "bus": "On the day, we will be arranging a bus to take everyone staying in Ostuni to the venue. The same bus will take everyone back to Ostuni after the event.",
+    "busDetails": "We will be able to confirm the details of the bus once we have confirmed the number of guests. We will be updating this page with the details as soon as we have them.",
+    "alternative": "Alternatively, you will be able to drive to the venue and parking is provided. There are also some local taxis but availability is limited.",
+    "ceremony": "The ceremony",
+    "ceremonyDescription": "The ceremony will take place at 4pm at Masseria Castelluzzo. After the ceremony there will be aperitivo, dinner, music, drinks, cake, and dancing :)"
   }
 }
