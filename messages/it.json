@@ -9,5 +9,16 @@
     "whereToStay": "Dove stare",
     "whatToSee": "Cose da vedere",
     "rsvp": "RSVP"
+  },
+  "travel": {
+    "title": "Come arrivare",
+    "gettingToOstuni": "Arrivare a Ostuni",
+    "busToTheVenue": "Collegamento alla masseria",
+    "airports": "Aeroporti",
+    "gettingToOstuniDescription": "Mentre il matrimonio si terrà nell'area di Ceglie, il luogo logisticamente più conveniente per tutti gli ospiti è Ostuni.",
+    "busToTheVenueDescription": "Sarà organizzata una navetta per portare tutti gli ospiti che soggiornano in Ostuni, al luogo del matrimonio.",
+    "airportsDescription": "Gli aeroporti più vicini sono Brindisi (44km) e Bari (100km).",
+    "airportsDescriptionDublin": "Per entrambi gli aeroporti, sono disponibili voli diretti da Dublino il mercoledì e il sabato.",
+    "airportsDescriptionBrindisi": "Per arrivare a Ostuni da uno di questi aeroporti sono disponibili autobus, taxis o è possibile noleggiare un'auto. Si prega di consultare il sito web dell'aeroporto per tutte le opzioni."
   }
 }
