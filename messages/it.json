@@ -29,5 +29,15 @@
     "alternative": "In alternativa, potrete arrivare in auto e vi sarà fornito parcheggio. Sono anche disponibili alcuni taxi locali ma la disponibilità è limitata.",
     "ceremony": "La cerimonia",
     "ceremonyDescription": "La cerimonia si terrà alle 16:00 presso la Masseria Castelluzzo. Dopo la cerimonia ci sarà aperitivo, cena, musica, bevande, torta e balli :)"
+  },
+  "accomodation": {
+    "title": "Dove stare",
+    "theVenue": "La masseria",
+    "theVenueDescription": "La Masseria Castelluzzo ha un numero limitato di camere (12) disponibili, riservate a familiari.",
+    "theVenueDescription2": "Qualora siate interessari a soggiornare alla Masseria, vi invitiamo a contattarci poiché, vista  la limitata disponibilità di camere, dovesse non essere possibile prenotare una stanza, saremo lieti di aiutare nella ricerca di alternative.",
+    "ostuni": "Ostuni",
+    "ostuniDescription": "Consigliamo di soggiornare ad Ostuni. Il paese offre innumerevoli opzioni tra hotels e Airbnb nel centro.",
+    "ostuniDescription2": "Ostuni è un paese molto turistivo e vivace in estate. Pianificheremo eventi con tutti gli ospiti che soggiornano in Ostuni prima e dopo il matrimonio, sarebbe quindi ideale se tutti gli ospiti fossero nello stesso luogo senza il bisogno di dover viaggiare.",
+    "ostuniDescription3": "Prego notare come ci siano anche molte valide opzioni di soggiorno nel territorio circostante. Tuttavia, sarà necessario noleggiare un'auto o una scooter in quanto assolutamente necessario qualora decidiate di stare in campagna."
   }
 }
