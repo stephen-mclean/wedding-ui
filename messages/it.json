@@ -39,5 +39,26 @@
     "ostuniDescription": "Consigliamo di soggiornare ad Ostuni. Il paese offre innumerevoli opzioni tra hotels e Airbnb nel centro.",
     "ostuniDescription2": "Ostuni è un paese molto turistivo e vivace in estate. Pianificheremo eventi con tutti gli ospiti che soggiornano in Ostuni prima e dopo il matrimonio, sarebbe quindi ideale se tutti gli ospiti fossero nello stesso luogo senza il bisogno di dover viaggiare.",
     "ostuniDescription3": "Prego notare come ci siano anche molte valide opzioni di soggiorno nel territorio circostante. Tuttavia, sarà necessario noleggiare un'auto o una scooter in quanto assolutamente necessario qualora decidiate di stare in campagna."
+  },
+  "invite": {
+    "title": "RSVP",
+    "inviteNotFound": "Invito non trovato",
+    "inviteNotFoundDescription": "Non abbiamo trovato un invito con questo codice. Controlla di nuovo il tuo invito.",
+    "back": "Torna alla home",
+    "submit": "Invia",
+    "notes": "Note",
+    "notesPlaceholder": "Includi qui qualsiasi altra informazione utile per noi.",
+    "yes": "Si",
+    "no": "No",
+    "plusOne": "Porterai qualcuno con te?",
+    "plusOneNotes": "Se sì, includi il nome nelle note.",
+    "isAttending": "Ci sarai?",
+    "thankYou": "Grazie!",
+    "thankYouMessage": "Ci spiace non poter condividere il nostro giorno con voi questa volta, ma speriamo di vedervi presto!",
+    "thankYouMessage2": "Grazie mille per la risposta. Siamo entusiasti di condividere il nostro giorno con voi. Troverete alcune informazioni utili qui sotto e non esitate a contattarci se avete bisogno di qualsiasi cosa.",
+    "howToGetThere": "Come arrivare",
+    "theBigDay": "Il grande giorno",
+    "whereToStay": "Dove stare",
+    "whatToSee": "Cose da vedere"
   }
 }

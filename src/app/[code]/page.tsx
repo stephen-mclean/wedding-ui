@@ -2,6 +2,7 @@ import { fetchInvite } from "@/api";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { InviteForm } from "./invite-form";
+import { getTranslations } from "next-intl/server";
 
 export default async function UpdateInvite({
   params,
@@ -11,18 +12,18 @@ export default async function UpdateInvite({
   const { code } = await params;
 
   const invite = await fetchInvite(code);
-  console.log(invite);
+
+  const t = await getTranslations("invite");
 
   if (!invite) {
     return (
       <div className="flex flex-col gap-6 items-center">
-        <h1 className="font-serif text-4xl text-center">Invite not found</h1>
-        <p className="font-sans text-base">
-          We could not find an invite with that code. Please check your invite
-          again.
-        </p>
+        <h1 className="font-serif text-4xl text-center">
+          {t("inviteNotFound")}
+        </h1>
+        <p className="font-sans text-base">{t("inviteNotFoundDescription")}</p>
         <Link href="/">
-          <Button>Back</Button>
+          <Button>{t("back")}</Button>
         </Link>
       </div>
     );
@@ -30,7 +31,7 @@ export default async function UpdateInvite({
 
   return (
     <div className="flex flex-col gap-6 flex-1 lg:max-w-lg">
-      <h1 className="font-serif text-4xl text-center">RSVP</h1>
+      <h1 className="font-serif text-4xl text-center">{t("title")}</h1>
       <InviteForm invite={invite} />
     </div>
   );

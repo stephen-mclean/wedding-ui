@@ -15,6 +15,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TextArea } from "@/components/ui/textarea";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const guestSchema = z.object({
   isAttending: z.boolean(),
@@ -37,6 +38,8 @@ type Props = {
 };
 
 const Guests = () => {
+  const t = useTranslations("invite");
+
   const { fields } = useFieldArray<Invite>({
     name: "guests",
   });
@@ -44,12 +47,12 @@ const Guests = () => {
   const getIsAttendingOptions = (index: number): RadioItem[] => {
     return [
       {
-        label: "Yes",
+        label: t("yes"),
         value: "true",
         id: `isAttending-yes-${index}`,
       },
       {
-        label: "No",
+        label: t("no"),
         value: "false",
         id: `isAttending-no-${index}`,
       },
@@ -57,15 +60,11 @@ const Guests = () => {
   };
 
   const getLabel = (guest: Guest) => {
-    return guest.isPlusOne
-      ? "Will you be bringing a plus one?"
-      : "Is attending?";
+    return guest.isPlusOne ? t("plusOne") : t("isAttending");
   };
 
   const getHelperText = (guest: Guest) => {
-    return guest.isPlusOne
-      ? "If yes, please include their name in the notes."
-      : undefined;
+    return guest.isPlusOne ? t("plusOneNotes") : undefined;
   };
 
   return (
@@ -97,6 +96,8 @@ export const InviteForm = ({ invite }: Props) => {
     resolver: zodResolver(inviteSchema),
   });
 
+  const t = useTranslations("invite");
+
   const router = useRouter();
 
   const onSubmit = async (data: InviteSchema, e?: BaseSyntheticEvent) => {
@@ -122,8 +123,8 @@ export const InviteForm = ({ invite }: Props) => {
           render={({ field }) => (
             <TextArea
               {...field}
-              label="Notes"
-              placeholder="Include any other helpful info for us here or any dietary requirements."
+              label={t("notes")}
+              placeholder={t("notesPlaceholder")}
             />
           )}
         />
@@ -131,11 +132,11 @@ export const InviteForm = ({ invite }: Props) => {
         <div className="flex justify-end gap-2">
           <Link href="/">
             <Button variant="secondary" type="button">
-              Back
+              {t("back")}
             </Button>
           </Link>
           <Button type="submit" disabled={isDisabled}>
-            Submit
+            {t("submit")}
           </Button>
         </div>
       </form>

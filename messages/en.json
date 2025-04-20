@@ -39,5 +39,26 @@
     "ostuniDescription": "We recommend staying in Ostuni city center. There are a number of hotels and Airbnb&apos;s in the center.",
     "ostuniDescription2": "Ostuni is very popular with tourists and is very lively in the Summer. We plan to arrange events with everyone staying in Ostuni before and after the wedding so it would be a great place for everyone to stay without having to travel.",
     "ostuniDescription3": "Please also note that there are many great options in the surrounding countryside. However, you will need to arrange rental of a car or scooter as transport to the countryside is impossible without your own transport."
+  },
+  "invite": {
+    "title": "RSVP",
+    "inviteNotFound": "Invite not found",
+    "inviteNotFoundDescription": "We could not find an invite with that code. Please check your invite again.",
+    "back": "Back",
+    "submit": "Submit",
+    "notes": "Notes",
+    "notesPlaceholder": "Include any other helpful info for us here or any dietary requirements.",
+    "yes": "Yes",
+    "no": "No",
+    "plusOne": "Will you be bringing a plus one?",
+    "plusOneNotes": "If yes, please include their name in the notes.",
+    "isAttending": "Is attending?",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thank you very much for responding. We're sorry we won't see you this time, but we hope to see you soon!",
+    "thankYouMessage2": "Thank you very much for responding. We can't wait to share our day with you. Please find some useful information below and don't hesitate to reach out to us if you need anything.",
+    "howToGetThere": "How to get there",
+    "theBigDay": "The big day",
+    "whereToStay": "Where to stay",
+    "whatToSee": "What to see"
   }
 }
