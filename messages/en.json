@@ -8,17 +8,17 @@
     "theBigDay": "The big day",
     "whereToStay": "Where to stay",
     "whatToSee": "What to see",
-    "rsvp": "RSVP",
-    "travel": {
-      "title": "How to get there",
-      "gettingToOstuni": "Getting to Ostuni",
-      "busToTheVenue": "Bus to the venue",
-      "airports": "Airports",
-      "gettingToOstuniDescription": "While the wedding ceremony will be held in the Ceglie area, the best place, logistically, for everyone to stay nearby would be Ostuni.",
-      "busToTheVenueDescription": "We will be arranging a bus to take everyone staying in Ostuni to the venue on the day of the wedding.",
-      "airportsDescription": "The closest airports are Brindisi (44km) and Bari (100km).",
-      "airportsDescriptionDublin": "For both airports, direct flights from Dublin are available on a Wednesday and a Saturday.",
-      "airportsDescriptionBrindisi": "To get from either airport to Ostuni you can take a bus, taxi, or rent a car. Please see the airport website for all options."
-    }
+    "rsvp": "RSVP"
+  },
+  "travel": {
+    "title": "How to get there",
+    "gettingToOstuni": "Getting to Ostuni",
+    "busToTheVenue": "Bus to the venue",
+    "airports": "Airports",
+    "gettingToOstuniDescription": "While the wedding ceremony will be held in the Ceglie area, the best place, logistically, for everyone to stay nearby would be Ostuni.",
+    "busToTheVenueDescription": "We will be arranging a bus to take everyone staying in Ostuni to the venue on the day of the wedding.",
+    "airportsDescription": "The closest airports are Brindisi (44km) and Bari (100km).",
+    "airportsDescriptionDublin": "For both airports, direct flights from Dublin are available on a Wednesday and a Saturday.",
+    "airportsDescriptionBrindisi": "To get from either airport to Ostuni you can take a bus, taxi, or rent a car. Please see the airport website for all options."
   }
 }
