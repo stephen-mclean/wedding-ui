@@ -4,6 +4,9 @@ import { cookies, headers } from "next/headers";
 const locales: Record<string, string> = {
   en: "en",
   it: "it",
+  "it-IT": "it",
+  "it-CH": "it",
+  "it-VA": "it",
   "en-IE": "en",
 };
 
